@@ -1,0 +1,149 @@
+:root {
+    --main-color-one: #519259;
+    --main-color-Two: #fc5a5a;
+    --main-color-Three: #febd2e;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    /* margin: 0 auto; */
+    overflow: hidden;
+    /* width: calc(100% - 90px); */
+}
+
+.mainInfo {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 560px;
+}
+
+.mainInfo .logo {
+    margin-top: 50px;
+}
+
+.mainInfo h1 {
+    font-size: 56px;
+    letter-spacing: 4.16;
+    color: var(--main-color-Three);
+    font-family: 'Playfair Display', serif;
+}
+
+.mainInfo p#intro {
+    font-size: 16px;
+    color: #92929d;
+    height: 20px;
+}
+
+.mainInfo form {
+    padding: 40px 30px 30px 30px;
+    width: 100%;
+    margin: 0;
+}
+
+.mainInfo form fieldset input[name="Email"],
+.mainInfo form fieldset input[name="Pass"] {
+    padding-top: 18px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.mainInfo form input:focus {
+    outline: none;
+}
+
+.mainInfo form input[name="Email"] {
+    border: 1px solid var(--main-color-one);
+}
+
+.mainInfo form input[name="Pass"] {
+    border: 1px solid var(--main-color-Two);
+}
+
+.mainInfo form fieldset {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.mainInfo form legend {
+    text-align: left;
+    position: relative;
+    top: 7px;
+    left: 19px;
+    background-color: white;
+    font-size: 14px;
+}
+
+.mainInfo form fieldset:first-of-type legend {
+    color: var(--main-color-one);
+}
+
+.mainInfo form fieldset:last-of-type legend {
+    color: var(--main-color-Two);
+}
+
+.mainInfo form .rememberMe {
+    display: inline;
+    text-align: left;
+    float: left;
+}
+.mainInfo form .rememberMe label {
+    margin-left: 8px;
+}
+
+.mainInfo form .clear {
+    clear: both;
+}
+
+.mainInfo form .rememberMe:hover,
+.mainInfo form .rememberMe input:hover,
+.mainInfo form .rememberMe label:hover {
+    cursor: pointer;
+}
+
+.mainInfo form > a {
+    font-size: 14px;
+    color: var(--main-color-Three);
+    float: right;
+}
+
+.mainInfo form button {
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    color: #fafafb;
+    font-size: 12px;
+    background-color: var(--main-color-one);
+    border-radius: 30px;
+    border: 1px solid var(--main-color-one);
+    cursor: pointer;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.mainInfo p#accountCheck {
+    text-align: center;
+    padding: 17px 0;
+    color: #2c2c3d;
+    font-size: 14px;
+    background-color: #f8f8ff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.mainInfo p#accountCheck a {
+    text-decoration: none;
+    color: #2c2c3d;
+    cursor: pointer;
+}

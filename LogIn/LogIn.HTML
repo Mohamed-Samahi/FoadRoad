@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+
+    <!-- main style sheet link -->
+    <link rel="stylesheet" href="./CSS/LogIn.css">
+
+    <!-- normalize style sheet link -->
+    <link rel="stylesheet" href="./CSS/normalize.css">
+
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+    <div class="container">
+        <div class="mainInfo">
+            <img src="./Images/Logo.png" alt="Logo" class="logo">
+            <h1>Sign In</h1>
+            <p id="intro">Just sign in if you have an account in here. Enjoy our Website</p>
+
+            <form action="" SameSite=Secure>
+                <fieldset>
+                    <legend style="text-align: left;">Your Email/Username</legend>
+                    <input type="email" name="Email" id="email" placeholder="website@website.com">
+                </fieldset>
+                <fieldset>
+                    <legend style="text-align: left;">Your Password</legend>
+                    <input type="password" name="Pass" id="pass" placeholder="password">
+                </fieldset>
+                
+                <div class="rememberMe">
+                    <input type="checkbox" name="Check" id="check">
+                    <label for="check">Remember Me</label>
+                </div>
+                <a href="">Forgot Password</a>
+                <div class="clear"></div>
+    
+                <button type="submit">Login</button>
+                <p id="accountCheck">Already have an account? <a href="">Log in</a></p>
+            </form>
+        </div>
+        <img src="./Images/paella-black-pa.png" alt="">
+        <!-- <img src="./Images/paella-black-pa.png" alt=""> -->
+    </div>
+</body>
+</html>
